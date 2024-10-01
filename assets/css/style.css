@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --header-bg:#10375C;
+}
+
 html
 {
     font-size: 62.5%;
@@ -32,16 +36,19 @@ a{
 
 .btn
 {
+   --height: 60px;
     display: inline-block;
     min-width: 205px;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.8rem;
+    height: var(--height);
+    padding: 0 20px;
+    border-radius: 99px;
+    border: 1px solid #2e80ce;
+    font-size: 1.6rem;
     font-weight: 400;
-    border-radius: 30px;
-    background: #2E80CE;
-    padding:15px 46px;
-    line-height: 1.66;
+    text-align: center;
+    line-height: var(--height);
+    color: #fff;
+    background: #2e80ce;
 }
 
 
@@ -61,8 +68,9 @@ a{
 /* Header */
 .header
 {
+    min-height: 100vh; /*tình huống header chiếm 1 trang*/
     padding-top: 30px;
-    background: rgba(16, 55, 92, 1);
+    background: var(--header-bg);
 }
 
 .header .header-top
@@ -98,7 +106,7 @@ a{
     font-weight: 300;
 }
 
-/* Navbar-header */
+/*=====  Navbar-header ======*/
 .navbar__list
 {
     display: flex;
@@ -122,13 +130,15 @@ a{
 
 .navbar__link--active::before
 {
+    position: relative;
+    top: -2px;
+    left: -8px;
     content: " ";
     display: inline-block;
     width: 6px;
     height: 6px;
     border-radius: 50%;
     background: #fff;
-    margin-right: 11px;
 }
 
 /* Header-action */
@@ -143,10 +153,8 @@ a{
 
 .header-action__signup
 {   
-    padding:  8px 20px;
-    font-size: 1.5rem;
+    --height: 44px;
     min-width: 104px;
-    border-radius: 22px;
 }
 
 /* ===== Hero ====== */
@@ -934,4 +942,5 @@ a{
     text-align: center;
     color: #AAB3BA;
     font-size: 1.4rem;
+    line-height: 1.86;
 }
