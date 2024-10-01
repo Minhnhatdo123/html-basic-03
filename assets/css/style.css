@@ -286,7 +286,7 @@ a{
 .services__list
 {
     width: 40%;
-    margin-bottom: 55px;
+    padding: 36px 0;
 }
 
 .services__item
@@ -294,11 +294,13 @@ a{
     display: flex;
     background: #fff;
     padding: 22px;
-    background: #fff;
+    border-radius: 10px;
+    transition: 0.25s;
 }
 
 .services__item:hover
 {
+    position: relative;
     box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
     opacity: 0.9;
 }
@@ -314,12 +316,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #10375C;
     width: 60px;
     height: 60px;
     flex-shrink: 0;
     background: #EFF6FD;
     border-radius: 50%;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);;
+    transition: 0.25s;
 }
 
 /* ========== */
