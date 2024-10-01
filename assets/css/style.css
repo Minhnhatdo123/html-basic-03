@@ -142,6 +142,12 @@ a{
 }
 
 /* Header-action */
+.header-action
+{
+    display: flex;
+    align-items: center;
+}
+
 .header-action__login
 {   
     margin-right: 28px;
@@ -160,7 +166,7 @@ a{
 /* ===== Hero ====== */
 .hero
 {
-    padding: 76px 0 110px 0;
+    padding: 76px 0 110px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -231,7 +237,7 @@ a{
     height: 410px;
 }
 
-/* ===== Services ======== */
+/* ======== Services ======== */
 .services{
     margin-top: 70px;
     padding: 100px 0;
