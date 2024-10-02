@@ -441,7 +441,7 @@ a{
 .feature
 {
     margin-top: 70px;
-    padding: 100px 0 218px;
+    padding: 100px 0;
     display: flex;
 }
 
@@ -505,7 +505,8 @@ a{
 
 /* ===== Member =====*/
 .member{
-    padding: 70px 0 100px;
+    margin-top: 70px;
+    padding-bottom: 100px;
 }
 
 .member__top
@@ -525,7 +526,6 @@ a{
 .member__meetting
 {
     margin-top: 38px;
-    padding: 15px 27px;
 }
 
 /* member-list */
@@ -597,7 +597,7 @@ a{
 {
     display: flex;
     justify-content: center;
-    gap: 18px;
+    column-gap: 18px;
 }
 
 .control__btn
