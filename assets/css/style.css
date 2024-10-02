@@ -639,10 +639,10 @@ a{
 }
 
 .install__img{
+    display: block;
     width: 284px;
     height: 522px;
     object-fit: cover;
-    vertical-align: top;
     margin-top: -95px;
 }
 
@@ -653,6 +653,7 @@ a{
 
 .install__heading
 {
+    max-width: 489px;
     color: #FFF;
     font-size: 5rem;
     font-weight: 600;
