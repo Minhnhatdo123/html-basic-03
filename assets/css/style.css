@@ -454,6 +454,7 @@ a{
 
 .feature__images{
     position: relative;
+    padding: 0 58px 121px 0;
 }
 
 .feature__img
@@ -468,8 +469,8 @@ a{
 .feature__img:last-child
 {
     position: absolute;
-    top: 121px;
-    left: 238px;
+    right: 0;
+    bottom: 0;
     width: 332px;
     height: 370px;
     border-radius: 6px;
