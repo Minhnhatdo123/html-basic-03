@@ -806,13 +806,15 @@ a{
 /* ==== Appointment ===== */
 .appointment
 {
-    margin-top:69px;
-    padding: 100px 0;
+    margin-top:70px;
 }
 
 .appointment__inner
 {
+    background: #F6FBFF;
     text-align: center;
+    padding: 100px 0;
+    border-radius: 4px;
 }
 
 .appointment__heading{
@@ -822,7 +824,7 @@ a{
     font-weight: 600;
     line-height: 1.2; /* 120% */
     letter-spacing: -1px;
-    padding-bottom: 18px;
+    padding-bottom: 20px;
 }
 
 .appointment__heading::after
@@ -846,10 +848,6 @@ a{
     font-weight: 300;
     line-height: 1.75; /* 175% */
     margin: 18px auto 38px;
-}
-
-.appointment__btn{
-    padding: 15px 27px;
 }
 
 /* ==== Footer ====== */
