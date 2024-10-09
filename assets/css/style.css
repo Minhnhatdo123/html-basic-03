@@ -21,6 +21,12 @@ a{
     text-decoration: none;
 }
 
+input,textarea, select, button
+{
+    font-family: inherit;
+    font-size: inherit;
+}
+
 .line-clamp
 {
     display: -webkit-box;
@@ -88,6 +94,7 @@ a{
 
 .logo__text{
     margin-left: 6px;
+    font-family: "Sora", sans-serif;
 }
 
 .logo__brand
@@ -855,6 +862,7 @@ a{
     background: #10375C;
     margin-top: 170px;
     padding: 100px 0 42px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .footer__row
@@ -950,12 +958,18 @@ a{
     background: transparent;
 }
 
+.footer-form__input::placeholder{
+    color: #9CA8B1;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
 .footer-form__submit
 {
     min-width:108px;
-    height: 46px;
+    --height: 46px;
     border-radius: 4px;
-    padding: 10px 21px;
     font-size: 1.4rem;
 }
 
